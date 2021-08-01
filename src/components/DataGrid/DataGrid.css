@@ -1,0 +1,26 @@
+.dg-table, .dg-header, .dg-header-cell, .dg-row, .dg-cell {
+    display: table;
+    border-collapse: collapse;
+}
+
+.dg-table {
+    width: 100%;
+}
+
+.dg-header {
+    display: table-row;
+}
+
+.dg-header-cell, .dg-cell {
+    display: table-cell;
+    border: solid 1px black;
+    padding: 5px;
+}
+
+.dg-row {
+    display: table-row;
+}
+
+.dg-cell {
+    display: table-cell;
+}
